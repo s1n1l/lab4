@@ -4,7 +4,6 @@
 
 import re
 
-
 t = str(input("Введите строку : "))
 
 out = re.sub(r'\s+', '\n', t)
